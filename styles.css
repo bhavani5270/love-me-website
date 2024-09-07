@@ -1,0 +1,38 @@
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the container */
+}
+
+/* General button styles */
+.btn {
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    color: #fff; /* White text color */
+    font-size: 1.2em; /* Adjust font size as needed */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+}
+
+/* Dark pink color for 'Yes' button */
+.yes-btn {
+    background-color: #d81b60; /* Dark pink background */
+    margin-left: 20px; /* Move 'Yes' button to the right */
+}
+
+/* Dark pink color for 'No' button */
+.no-btn {
+    background-color: #c2185b; /* Slightly different dark pink background */
+    margin-left: 10px; /* Add space to the left of the 'No' button */
+}
+
+/* Button hover effects */
+.btn:hover {
+    background-color: #ab003c; /* Darker pink when hovering */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
